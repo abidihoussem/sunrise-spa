@@ -25,11 +25,11 @@
                   }"
                 >
                   <img
-                    src="../assets/img/jeans1.jpg"
+                    :src="bannerImage"
                     alt="banner"
                   />
                   <div class="banner-content">
-                    <h3>{{ t('w_jeans') }}</h3>
+                    <h3>{{ bannerTitle }}</h3>
                   </div>
                 </router-link>
               </div>
@@ -52,11 +52,11 @@
                   }"
                 >
                   <img
-                    src="../assets/img/sho3.jpg"
+                    :src="banner1Image"
                     alt="banner"
                   />
                   <div class="banner-content">
-                    <h3>{{ t('sneakers') }}</h3>
+                    <h3>{{ banner1Title }}</h3>
                   </div>
                 </router-link>
               </div>
@@ -77,11 +77,11 @@
                   }"
                 >
                   <img
-                    src="../assets/img/acc.jpg"
+                    :src="banner2Image"
                     alt="banner"
                   />
                   <div class="banner-content">
-                    <h3>{{ t('accessories') }}</h3>
+                    <h3>{{ banner2Title }}</h3>
                   </div>
                 </router-link>
               </div>
@@ -104,11 +104,11 @@
                   }"
                 >
                   <img
-                    src="../assets/img/s3.jpg"
+                    :src="banner3Image"
                     alt="banner"
                   />
                   <div class="banner-content">
-                    <h3>{{ t('bathing_suits') }}</h3>
+                    <h3>{{ banner3Title }}</h3>
                   </div>
                 </router-link>
               </div>
