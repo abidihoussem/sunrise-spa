@@ -16,7 +16,7 @@
         <template v-slot:content="">
           <div
             class="single-slider bg-img slider-height-2 align-items-center custom-d-flex"
-            :style="`background-image:url(${require(`presentation/assets/img/${slide.content.bgImage}`)});`"
+            :style="`background-image:url(${slide.content.bgImage}`"
           >
             <div class="container">
               <div
